@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <script src="script.js" defer></script>
+    <title>Security Engineer Portfolio</title>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">portfolio</div>
+            <button class="hamburger" id="hamburger">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">accueil</a></li>
+                <li><a href="#about">à propos</a></li>
+                <li><a href="#skills">compétences</a></li>
+                <li><a href="#education">formation</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <div class="terminal-title">malo@sanson:~/portfolio</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="command-line">whoami</div>
+                    <div class="response">Actuellement en première année de cycle ingénieur informatique à l’Université de technologie de Belfort Montbéliard
+                        (BAC+3), je recherche un stage d’une durée de 6 mois à compter de septembre 2025 (BAC+4)</div>
+                    
+                    <div class="command-line">cat skills.txt</div>
+                    <div class="response">Networking | Administration système & réseau | Programmation | Développement Web</div>
+                    
+                    
+                    <div class="command-line typing">ssh connect --to future_opportunities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content fade-in">
+                    <h2>./à propos</h2>
+                    <p>Passionné par le réseau et la sécurité informatique, je suis actuellement étudiant à l'UTBM (Université de Technologie de Belfort-Montbéliard).</p>
+                    <p>Mon parcours a débuté par l'étude de l'informatique à travers le développement en langage C. J'ai ensuite exploré la programmation orientée objet avec Java, langage avec lequel j'ai réalisé plusieurs projets, dont la transcription du jeu de société Turing Machine en jeu vidéo.
+                    </p>
+                    <p>J'ai également élargi mes compétences en programmation Web, en concevant une plateforme de commerce en ligne, en utilisant PHP, SQL, HTML et CSS.</p>
+                    <p>Parallèlement à cela, j'ai développé une forte appétence en réseaux, notamment grâce aux certifications Cisco CCNA : Introduction to Networks et CCNA Routing and Switching. Enfin, j'ai acquis des compétences en administration Linux, ce qui m'a permis de renforcer mon profil technique.</p>
+                    <p>En parallèle de mes études, je suis un passionné de triathlon, discipline que je pratique en compétition. Cette activité m'a permis de développer une grande rigueur et un fort esprit de persévérance, des qualités que je transpose également dans ma vie professionnelle. Le triathlon m'enseigne aussi la gestion du temps et l’importance de l'effort soutenu.</p>
+                    <p>J'ai également pratiqué l'escrime, où j'ai eu l'honneur de devenir champion de Seine-et-Marne par équipe, une expérience qui m'a appris à travailler en synergie avec les autres et à faire preuve de réactivité et de stratégie sous pression.</p>
+                    <P>Ces expériences sportives m'ont forgé un caractère curieux, rigoureux et un véritable esprit d'équipe, des atouts qui me permettent d'apporter une réelle valeur ajoutée à tout projet ou équipe.</P>
+
+
+                    <div class="tech-stack">
+
+                    </div>
+                </div>
+                
+                <div class="visual fade-in">
+                    <div class="network-visual" id="networkVisual"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="fade-in">./compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">💻</div>
+                        <h3>Programmation</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Language C</li>
+                        <li>Bases de données : SQL (PL/pgSQL, procédures, déclencheurs), données semi-structurées (XML, JSON, XQuery), NoSQL (MongoDB, clé-valeur, document, graphe)</li>
+                        <li>Technologies Web : html, css, javascript, php, Angular</li>
+                        <li>Programmation orientée objet en Java</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🌐</div>
+                        <h3>Networking</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Certification Cisco </li>
+                        <li>Configuration et sécurisation d'une infrastructure de réseau Cisco : VLANs, routage interVLAN, STP, EtherChannel</li>
+                        <li>Administration Linux</li>
+                        <li>Mise en place du routage dynamique et redondance réseau : OSPF, protocoles de
+                            premier saut (HSRP, VRRP)
+                            </li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🔍</div>
+                        <h3>Soft skills</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Rigueur et attention aux détails</li>
+                        <li>Curiosité et veille technologique </li>
+                        <li>Travail d'équipe</li>
+                        <li>Adaptabilité</li>
+                        <li>Gestion du stress</li>
+                        <li>Anglais : B2</li>
+                    </ul>
+
+                </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="fade-in">./formation</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Aujourd'hui</span>
+                        <h3>UTBM, France</h3>
+                        <p>Ecole d'ingénieur, spécialité réseau et télécommunications</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3>Cisco Certification</h3>
+                        <p>CCNA: Introduction to Networks</p>
+                        <p>CCNA: Routing & Switching</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3>Baccalauréat général Scientifique </h3>
+                        <p> Mention Très Bien</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+ <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="contact-container">
+            <div class="contact-header fade-in">
+                <h2>./contact</h2>
+                <p>Interested in connecting? Reach out through any of these channels:</p>
+            </div>
+
+            <div class="contact-methods">
+                <a href="mailto:malo.sanson@utbm.fr" class="contact-method fade-in">
+                    <div class="contact-icon">📧</div>
+                    <span>malo.sanson@utbm.fr</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/malo-sanson/" target="_blank" class="contact-method fade-in">
+                    <div class="contact-icon">🔗</div>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/Malo912" target="_blank" class="contact-method fade-in">
+                    <div class="contact-icon">💬</div>
+                    <span>GitHub</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <p>&copy; 2025 - Built with code and cybersecurity passion</p>
+        </div>
+    </footer>
+
+ 
+</body>
+</html>
